@@ -26,4 +26,5 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 ```
 
 2. Create database schema:
+
 - Execute a sql file: /resources/database_schema.sql

@@ -33,8 +33,7 @@ public class AdminRestController {
 		List<UserJson> users = null;
 		
 		try {
-			users = userConverter
-					.convertToJsons(
+			users = userConverter.convertToJsons(
 						userService.getAll(), 
 						UserJson.class);
 		} catch (InstantiationException | IllegalAccessException e) {
